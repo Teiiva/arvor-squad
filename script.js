@@ -9,7 +9,7 @@ const eventsData = [
         location: "Brest", 
         date: "Samedi 14 Fev • 14h", 
         participants: 42, 
-        image: src= "img/port_de_commerce.jpg",
+        image: src= "port_de_commerce.jpg",
         description: "Nettoyage complet du Port de Commerce. Équipement fourni sur place. Gants, pinces et sacs biodégradables seront distribués. Convient aux débutants comme aux experts. RDV devant la capitainerie.",
         pollution: "Élevée",
         lat: 48.384232,
@@ -23,7 +23,7 @@ const eventsData = [
         location: "Brest", 
         date: "Dimanche 22 Fev • 10h", 
         participants: 128, 
-        image: src= "img/plage_du_moulin_blanc.jpg",
+        image: src= "plage_du_moulin_blanc.jpg",
         description: "Grande collecte sur la plage du Moulin Blanc. Animations et goûter offert aux participants. Événement familial avec ateliers de sensibilisation. Partenariat avec la ville de Brest.",
         pollution: "Moyenne",
         lat: 48.397518 ,
@@ -37,7 +37,7 @@ const eventsData = [
         location: "Plouzané", 
         date: "Mercredi 25 Fev • 18h", 
         participants: 15, 
-        image: src= "img/pointe_du_minou.jpg",
+        image: src= "pointe_du_minou.jpg",
         description: "Nettoyage des rochers à la Pointe Minou. Prévoir des chaussures adaptées. Accès délicat, recommandé aux personnes en bonne condition physique. Vue magnifique sur le phare.",
         pollution: "Faible",
         lat: 48.336757 ,
@@ -51,7 +51,7 @@ const eventsData = [
         location: "Plougastel", 
         date: "Dimanche 01 Mar • 14h", 
         participants: 34, 
-        image: src= "img/rocher.jpg",
+        image: src= "rocher.jpg",
         description: "Collecte autour du célèbre Rocher de l'Impératrice. Vue imprenable garantie. Focus sur les microplastiques. Matériel fourni, prévoir de l'eau et une collation.",
         pollution: "Moyenne",
         lat: 48.388932 ,
@@ -65,7 +65,7 @@ const eventsData = [
         location: "Le Relecq", 
         date: "Mercredi 11 Mar • 17h", 
         participants: 8, 
-        image: src= "img/cale.jpg",
+        image: src= "cale.jpg",
         description: "Petite collecte en semaine pour les locaux. Ambiance conviviale. Parfait pour une première expérience. Après-midi suivi d'un pot convivial.",
         pollution: "Faible",
         lat: 48.396412 ,
@@ -79,7 +79,7 @@ const eventsData = [
         location: "Plougonvelin", 
         date: "Samedi 21 Mar • 11h", 
         participants: 23, 
-        image: src= "img/anse.jpg",
+        image: src= "anse.jpg",
         description: "Nettoyage de l'Anse de Bertheaume, site naturel protégé. Encadrement par un garde du littoral. Collecte spécifique des filets de pêche.",
         pollution: "Moyenne",
         lat: 48.337006 ,
@@ -1027,4 +1027,5 @@ function initNavigation() {
 }
 
 // Appeler l'initialisation
+
 document.addEventListener('DOMContentLoaded', initNavigation);
